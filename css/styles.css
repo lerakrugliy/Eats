@@ -1,0 +1,68 @@
+:root{
+    --main-text-color: #252b42;
+    --second-text-color: #fff;
+    --third-text-color: #737373;
+    --fourth-text-color: #5c5c5c;
+    --acent-color:  #fa4a0c;
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Poppins", sans-serif;
+    --third-family: "Roboto", sans-serif;
+}
+
+.body{
+    font-family: var(--font-family);
+    color: var(--main-text-color);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 3px solid pink;
+}
+
+.header{
+    padding: 15px 15px;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 54px;
+}
+
+.header_list {
+    display: flex;
+    gap: 94px;
+    list-style: none;
+}
+
+.header_item a {
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header_item a {
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header_item a:hover,
+.header_item a.current {
+    color: var(--acent-color);
+}
